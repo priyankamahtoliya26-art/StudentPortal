@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - Feedback</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Submit Feedback</h1>
+</header>
+
+<nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="Courses.html">course</a></li>
+            <li><a href="Grades.html">grades</a></li>
+            <li><a href="Feedbacck.html">feedback</a></li>
+            <li><a href="Contact.html">contact</a></li>
+        </ul>
+</nav>
+
+ <main>
+
+    <form>
+
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </p>
+
+           <label for="gender">Gender:</label>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+      <p>
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I agree to submit feedback</label>
+        </p>
+
+      <p>
+            <label for="feedback">Your Feedback:</label><br>
+            <textarea id="feedback" name="feedback"rows="5" cols="30"></textarea>
+        </p>
+
+        <p>
+            <label for="type">Feedback Type:</label><br>
+
+            <select id="type" name="type">
+              <option value="general">General Feedback</option>
+              <option value="course">Course Feedback</option>
+              <option value="website">Website Feedback</option>
+              <option value="suggestion">Suggestion</option>
+            </select>
+        </p>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+  </main>
+
+ <footer>
+    <p>Copyright 2026 - Student Portal</p>
+</footer>
+
+</body>
+</html>
+
+
